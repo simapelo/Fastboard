@@ -1,0 +1,17 @@
+name: Fastboard
+main: FastboardCode\Main
+version: 1.0.0
+api: 4.0.0
+author: MaflowCraft
+commands:
+  fastboard:
+    description: Main command for Fastboard plugin
+    usage: "/fastboard <reload|hide|show>"
+    permission: fastboard.use
+permissions:
+  fastboard.reload:
+    description: Allows player to reload scoreboard configuration
+    default: op
+  fastboard.use:
+    description: Allows player to use Fastboard commands
+    default: true
