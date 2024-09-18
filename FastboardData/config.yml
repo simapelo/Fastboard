@@ -1,0 +1,9 @@
+scoreboard_text: |
+  Fastboard
+  Welcome {player_name}!
+  Ping: {ping}
+  World: {player_world}
+  Players Online: {online_players}/{max_players}
+  Health: {player_health}
+  Time: {time}
+  Server: {server_name}
